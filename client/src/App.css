@@ -1,0 +1,13 @@
+.pokemon-card {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.pokemon-card-inner {
+  transition: transform 0.7s ease-in-out;
+}
+
+.pokemon-card:hover .pokemon-card-inner {
+  transform: scale(1.3);
+  z-index: 10;
+}
